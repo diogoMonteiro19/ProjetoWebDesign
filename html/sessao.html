@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, flex-scale=1.0">
+    <link rel="stylesheet" href="prod.css">
+    <title>Floco</title>
+
+    <nav>
+        <svg id="fundonav" width="1603" height="120">
+            <rect width="1603" height="120" style="fill:#273d3f6b;stroke-width:0;stroke:#273d3f6b"> 
+        </svg>
+        <div class="nav">
+        <a id="cata" href="/produtos">CATÁLOGO</a>
+        <a id="is" href="/sessao">INICIAR SESSÃO</a>
+        <!--<a id="p" href="/perfil">PERFIL</a>-->
+        <a id="c2" href="/mostra_carrinho">CARRINHO</a>
+        </div>
+    </nav>
+
+</head>
+<body>
+    <br><br><br><br><br>
+    <div id="sessao_div">
+        <form action='/sessao' method="POST">
+
+            <label> NOME PRÓPRIO</label>
+            <input type="text" placeholder="EMAIL" id="input_np" name="np_input">
+            <br> <br> 
+            <label> PALAVRA PASSE</label>
+
+            <input type="password" placeholder="PALAVRA PASSE" id="input_pp" name="pp_input">
+
+            <br> <br>
+
+            <input id="submit" type="submit" value="INICIAR SESSÃO" name ="submit">
+        
+        </form>
+
+        <a href="/registo" style="text-decoration: none; color: #b1663c;">
+
+            <p>AINDA NÃO TENS CONTA? <br> CLICA E CRIA A TUA CONTA AGORA!</p>
+
+        </a>
+
+
+    </div>
+
+    <div id="bg_img" style="float: right;margin-right: 10%;">
+
+        <img src="flocoimage.png"  >
+
+    </div>
+
+
+</body>

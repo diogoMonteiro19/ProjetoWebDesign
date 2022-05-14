@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Floco</title>
+    <link href="casa.css" rel="stylesheet">     
+</head>
+<body> 
+    <nav>
+        <svg id="fundonav" width="1603" height="120">
+            <rect width="1603" height="120" style="fill:#273d3f6b;stroke-width:0;stroke:#273d3f6b"> 
+        </svg>
+        <div class="nav">
+        <a id="cata" href="/produtos">CATÁLOGO</a>
+        <a id="is" href="/sessao">INICIAR SESSÃO</a>
+        <!--<a id="p" href="/perfil">PERFIL</a>-->
+        <a id="c2" href="/mostra_carrinho">CARRINHO</a>
+        </div>
+    </nav>
+
+    <p id="tit">FLOCO</p>
+    <p id="subtit">O LUGAR DO <br> GLOBO DE NEVE</p>
+    <a href="#dois" id="mais">DESCOBRE MAIS 🡣</a>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+
+
+    <div id="dois">
+    <img id="imglobo" src="globopi.jpg">
+    <div id="quemsomos">
+    <p id="quem">QUEM SOMOS?</p>
+    <p id="text">A Floco nasceu em 2020 para te<br> 
+        dar um mais fácil acesso àquela<br>
+        que é a nossa maior paixão:
+    </p>
+    <p id="globo">Globos de Neve!</p>
+</div>
+</div>
+</body>
+<footer>
+    <div class="esq">
+        <p id="c">CONTACTA-NOS!</p>
+        <p id="cd">info@floco.com<br>+351 211 108 899</p>
+    </div>
+    <div class="dir">
+        <p id="l">DEIXA-NOS<br>UMA SUGESTÃO</p>
+        <form>
+        <input type="text" id="sugestao" value="QUEREMOS MAIS GLOBOS!">
+        <input type="submit" id="submeter" value="✓">
+        </form>
+    </div>
+    
+</footer>

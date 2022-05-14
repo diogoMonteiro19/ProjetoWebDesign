@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'charlevoix light';
+    src: url(CharlevoixPro-Light.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'charlevoix medium';
+    src: url(CharlevoixPro-Medium.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'apple';
+    src: url(AppleGaramond-Light.ttf);
+    font-style: normal;
+}
+
+
+body{
+    background-image: url('fundo2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+  }
+
+
+#tit{
+    font-family: 'apple';
+    font-size: 190px;
+    color: #e9d9d0;
+    margin-top: 23%;
+    margin-left: 53%;
+}
+
+#subtit{
+    font-family: 'charlevoix light';
+    font-size: 40px;
+    color: #e9d9d0;
+    margin-top: -13%;
+    margin-left: 53%;
+    line-height: 1;
+}
+
+#mais{
+    font-family: 'charlevoix light';
+    font-size: 30px;
+    color: #e9d9d0;
+    margin-left: 53%;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+#imglobo{
+    margin-top: 20%;
+    margin-left: 57%;
+}
+
+#quemsomos{
+    margin-top: -28%;
+    margin-left: 23%;
+}
+
+#quem{
+    font-family: 'apple';
+    font-size: 90px;
+    color: #ab7659;
+    margin-bottom: 1%;
+    
+}
+
+#text{
+    font-family: 'charlevoix light';
+    font-size: 30px;
+    color: #ab7659;
+}
+
+#globo{
+    font-family: 'charlevoix medium';
+    font-size: 40px;
+    color: #ab7659;
+    margin-top: 1%;
+    margin-right: 61%;
+    text-align: right;
+}
+
+/* nav*/
+
+#fundonav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:100;
+    position: fixed;
+}
+
+#per, #cata, #is, #c2, #p{
+    text-decoration: none;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+    font-size: 25px;
+}
+
+#per{
+    margin-right: 5%;
+}
+
+#cata{
+    margin-right: 58%;
+}
+
+#is{
+    margin-right: 2%;
+}
+
+#per:hover, #cata:hover, #is:hover, #c2:hover, #p:hover{
+    color: rgb(160, 111, 100);
+}
+
+div.nav{
+    top: 5%;
+    left: 5%;;
+    width: 100%;
+    z-index:101;
+    position: fixed;
+}
+
+#p, #c2{
+    margin-right: 2%;
+    font-size: 30px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #b1663c;
+    width: 100%;
+    margin-left: -1%;
+    padding: 2%;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+}
+
+div.esq{
+    margin-left: 12%;
+}
+
+div.dir{
+    margin-top: -10%;
+    text-align: right;
+    align-items: right;
+    margin-right: 15%;
+}
+
+#c{
+    font-size: 30px;
+}
+
+#cd{
+    font-size: 25px;
+}
+
+#l{
+    font-size: 30px;
+}
+
+#sugestao{
+    font-size: 23px;
+    padding: 1%;
+    width: 30%;
+    color: #c99a81;
+    background-color: #e9d9d0;
+    border: none;
+    text-align: right;
+
+}
+
+#submeter{
+    padding-bottom: 0.84%;
+    padding-top: 0.2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 30px;
+    color: #c99a81;
+    background-color: #e9d9d0;
+    border: none;
+}
+
+#submeter:hover{
+    color: #c99a81cc;
+    background-color: #e9d9d0b7;
+}

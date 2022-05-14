@@ -1,0 +1,379 @@
+html{
+    background-color: #e9d9d0;
+  
+}
+
+@font-face{
+    font-family: 'charlevoix light';
+    src: url(CharlevoixPro-Light.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'charlevoix medium';
+    src: url(CharlevoixPro-Medium.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'apple';
+    src: url(AppleGaramond-Light.ttf);
+    font-style: normal;
+}
+
+body{
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+
+/* css da pag de iniciar sessao e de registo*/
+
+#sessao_div{
+    position: absolute;
+    padding-left: 15%;
+    z-index: 1;
+    color: #b1663c;
+    font-size: 130%;
+    font-family: 'charlevoix light';
+}
+
+#input_np, #input_pp, #input_np[type=text], #input_np[type=text].visited{
+    width: 120%;
+    color: white;
+    height: auto;
+    background-color: #b1663c !important;
+    border-color: transparent;
+    padding: 3%;
+    font-family: 'charlevoix light';
+
+}
+
+::placeholder{
+    color: white;
+    font-family: 'charlevoix light';
+}
+
+
+
+#input_np2, #input_pp2, #input_dn, #input_nc, #email, #input_sex, #input_tel, #input_morada{
+    width: 120%;
+    color: white;
+    height: auto;
+    background-color: #b1663c;
+    border-color: transparent;
+    padding: 1%;
+    font-family: 'charlevoix light';
+}
+
+#submit{
+    background-color: #b1663c;
+    color: #e9d9d0;
+    font-size: 100%;
+    border-color: #b1663c;
+    font-family: 'charlevoix light';
+    
+}
+/* pagina de visualização do perfil*/
+#titulo_perfil{
+    color: #b1663c;
+    text-align: center;
+    font-family: 'charlevoix light';
+}
+
+#label_perfil{
+    width: 150% !important;
+    color: #b1663c;
+    font-family: 'charlevoix light';
+}
+
+#input_perfil_ver{
+    background-color: #e9d9d0;
+    color: #b1663c;
+    border-color: transparent;
+    width: 50%;
+    font-family: 'charlevoix light';
+}
+
+#form_ver_perfil{
+    justify-content: center;
+    margin-left: 27%;
+    font-family: 'charlevoix light';
+}
+
+/* botao para editar perfil e botao guardar perfil*/
+#alterar_perfil{
+    text-decoration: none;
+    color: #b1663c;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'charlevoix light';
+}
+
+#alterar_perfil:hover{
+    font-family: 'charlevoix light';
+    text-decoration: underline;
+}
+
+/* css paguina de editar perfil*/
+#input_perfil_alterar{
+    background-color: #b1663c;
+    color: #e9d9d0;
+    width: 50%;
+    border-color: transparent;
+    margin-right: 27%;
+    float: right;
+    font-family: 'charlevoix light';
+
+}
+
+#form_alterar_perfil{
+    justify-content: center;
+    margin-left: 22%;
+    font-family: 'charlevoix light';
+}
+
+#guardar_perfil{
+    color: #b1663c;
+    background-color: #e9d9d0;
+    border-color: transparent;
+    font-weight: bold;
+    margin-left: 30%;
+    font-family: 'charlevoix light';
+}
+#apagar_perfil{
+    color: #b1663c;
+    background-color: #e9d9d0;
+    border-color: transparent;
+    font-weight: bold;
+    margin-left: 50%;
+    text-decoration: none;
+    font-family: 'charlevoix light';
+}
+
+#guardar_perfil:hover,#apagar_perfil:hover{
+    color: #e9d9d0;
+    background-color: #b1663c;
+    font-family: 'charlevoix light';
+}
+
+
+/* tabela nos produtos para os clientes verem*/
+tr:nth-child(even){
+    background-color: #b1663c;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+}
+
+table{
+    width: 100%;
+    color: #b1663c;
+    text-align: center;
+    font-family: 'charlevoix light';
+}
+
+#titulo_prod{
+    color: #b1663c;
+    text-align: center;
+    font-family: 'charlevoix light';
+}
+
+/* pagina onde o cliente escolhe continuar a compra ou ir para o carrinho*/
+#produto_adicionado{
+    text-align: center;
+    color: #b1663c;
+    font-family: 'charlevoix light';
+}
+
+#mostrar_carrinho, #continuar_comprar{
+    color: #b1663c;
+    text-decoration: none;
+    font-family: 'charlevoix light';
+}
+
+#mostrar_carrinho:hover, #continuar_comprar:hover{
+    text-decoration: underline;
+    font-family: 'charlevoix light';
+}
+
+/* pagina do carrinho*/
+#carrinho_text, #carrinho_vazio, #venda_feita{
+    color: #b1663c;
+    text-align: center;
+    font-family: 'charlevoix light';
+}
+
+#preco_total{
+    color: #b1663c;
+    float: right;
+    font-family: 'charlevoix light';
+}
+
+/* nav*/
+
+#fundonav{
+    top: 0;
+    left: 0;
+    z-index:100;
+    position: relative;
+    margin-top: -2%;
+    margin-left: -2%;
+    font-family: 'charlevoix light';
+}
+
+#per, #cata, #is, #c2, #p{
+    text-decoration: none;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+    font-size: 25px;
+    z-index: 101;
+    position: relative;
+    font-family: 'charlevoix light';
+}
+
+#per{
+    margin-right: 5%;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+}
+
+#cata{
+    margin-right: 58%;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+}
+
+#is{
+    margin-right: 2%;
+    color: #e9d9d0;
+    font-family: 'charlevoix light';
+}
+
+#per:hover, #cata:hover, #is:hover, #c2:hover, #p:hover{
+    color: rgb(160, 111, 100);
+    font-family: 'charlevoix light';
+    
+}
+
+
+
+/*div.nav{
+    top: 5%;
+    left: 5%;;
+    width: 100%;
+    z-index:101;
+    position: fixed;
+
+}*/
+
+#p, #c2{
+    margin-right: 2%;
+    font-size: 25px;
+    font-family: 'charlevoix light';
+}
+
+div.nav{
+    /* top: 5%; */
+    /* left: 5%; */
+    width: 100%;
+    /* display: block; */
+    z-index: 101;
+    /* position: fixed; */
+    /* position: relative; */
+    /* display: block; */
+    /* color: black; */
+    margin-top: -5.5%;
+    margin-left: 5%;
+    font-family: 'charlevoix light';
+}
+
+/* fim da nav*/
+
+/* boato finalizar compra */
+#botao_final_compra{
+    float: right;
+    text-decoration: none;
+    color: #b1663c;
+    font-weight: bold;
+    font-family: 'charlevoix light';
+}
+
+#botao_final_compra:hover{
+    text-decoration: underline;
+    font-family: 'charlevoix light';
+}
+
+/* paginas backend*/
+#ava , #cli, #com, #enc, #ven, #fab, #fun, #pcl, #pro{
+    font-family: 'charlevoix light';
+    font-size: 25px;
+    color: #273d3f;
+    text-decoration: none;
+    display:inline-block;
+    float: left;
+}
+
+#ava:hover, #cli:hover, #com:hover, #enc:hover, #ven:hover, #fab:hover, #fun:hover, #pcl:hover, #pro:hover{
+    color: #273d3f6b;
+}
+
+#ava , #cli, #com, #enc, #ven{
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+#fab, #fun, #pcl, #pro{
+    margin-right: 6%;
+    margin-bottom: 5%;
+}
+
+#ava{
+    margin-left: 28%;
+}
+#ven{
+    margin-left: 23%;
+}
+
+#avaa, #cliee, #compp, #encc, #vendd, #fabb, #funcc, #pcll, #proo{
+    color: #b1663c;
+    font-family: 'charlevoix medium';
+    font-size: 45px;
+    text-align: center;
+    padding: 3%;
+    margin-bottom: -2%;
+}
+
+#clica{
+    font-family: 'charlevoix light';
+    font-size: 40px;
+    color: #273d3f;
+    margin-top: 25%;
+    text-align: center;
+}
+/* botao fim de sessao */
+#fim_sessao{
+    font-family: 'charlevoix light';
+    color: #b1663c;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+#fim_sessao:hover{
+    font-family: 'charlevoix light';
+    text-decoration: underline;
+}
+
+#fim_sessao2{
+    font-family: 'charlevoix light';
+    color: #b1663c;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+#fim_sessao2:hover{
+    font-family: 'charlevoix light';
+    text-decoration: underline;
+}
