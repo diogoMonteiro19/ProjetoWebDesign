@@ -1,5 +1,6 @@
-# SitePessoal
-Pequeno site para um projeto pessoal em Node.JS
+# SiteProjetoWebDesign
+
+Pequeno site para um projeto académico em Node.JS
 
 Toda a implementação funcional de back end do site feita por mim
 
